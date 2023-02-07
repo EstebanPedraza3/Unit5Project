@@ -169,8 +169,6 @@ let Ben = sprites.create(img`
     . . . f f 1 d 1 d 1 d f f . . . 
     . . . . . f f b b f f . . . . . 
     `, SpriteKind.Princess)
-controller.player1.moveSprite(Ben)
-controller.player2.moveSprite(Esteban)
 Ben.setBounceOnWall(true)
 Esteban.setBounceOnWall(true)
 pause(100)
